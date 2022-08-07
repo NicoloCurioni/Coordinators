@@ -61,7 +61,7 @@
         <!--Create Account View Controller-->
         <scene sceneID="m7j-Xf-08y">
             <objects>
-                <viewController id="LGh-3j-0O6" customClass="CreateAccountViewController" customModule="Coordinators" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="CreateAccountViewController" id="LGh-3j-0O6" customClass="CreateAccountViewController" customModule="Coordinators" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Z2q-AK-SGT">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -92,7 +92,7 @@
         <!--Buy View Controller-->
         <scene sceneID="Yb7-RL-UyY">
             <objects>
-                <viewController id="Jzu-Zg-sV2" customClass="BuyViewController" customModule="Coordinators" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="BuyViewController" id="Jzu-Zg-sV2" customClass="BuyViewController" customModule="Coordinators" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="tRH-UG-uyF">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

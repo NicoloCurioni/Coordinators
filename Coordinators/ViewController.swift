@@ -19,9 +19,11 @@ class ViewController: UIViewController, Storyboarded {
     // MARK: Actions
 
     @IBAction func buyTapped(_ sender: Any) {
+        coordinator?.buySubscription()
     }
     
     @IBAction func createAccountTapped(_ sender: Any) {
+        coordinator?.createAccount()
     }
 }
 
